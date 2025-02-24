@@ -88,7 +88,7 @@ function maskPassword(pass) {
   
     // Validation: Email is optional, but other fields are required
     if (!website.value || !password.value) {
-      alert("Please fill in all required fields (Website, Username, Password)!");
+      alert("Please fill in all required fields (Website, Password)!");
       return;
     }
   
