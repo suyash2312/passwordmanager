@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2; /* Reduced line spacing */
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 12px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 23px;
+  font-weight: 800;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  margin: 0 23px;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+  margin: 0 13px;
+  cursor: pointer;
+}
+
+ul > li:hover {
+  color: gray;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 23px auto;
+}
+
+h1, h2, h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Compact form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  width: 300px;
+  margin: 1px 0;
+}
+
+label {
+  margin-bottom: 1px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  padding: 10px 10px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+.btn {
+  padding: 8px 17px;
+  background: black;
+  color: white;
+  font-weight: 900;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btnsm {
+  padding: 5px 10px;
+  background: #ff4d4d;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+  width: 15px;
+  height: 13px;
+  position: relative;
+  bottom: 7px;
+}
+
+#alert {
+  display: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.missing-email {
+  color: gray;
+  font-style: italic;
+}
